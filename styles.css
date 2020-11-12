@@ -146,7 +146,6 @@ body {
     transition: ease-in 700ms;
 }
 
-
 /* ================ TECH STACK SECTION  */
 
 #techstack {
@@ -182,9 +181,7 @@ body {
     justify-content: center;
 }
 
-
 /* =============== END OF TECH STACK SECTION  */
-
 
 /* =============== RESUME SECTION  */
 
@@ -298,8 +295,7 @@ body {
     color: chocolate;
 }
 
-.timeline-page h4,
-.event-description-left h4 {
+.timeline-page h4, .event-description-left h4 {
     font-size: 1rem;
     font-weight: 600;
     margin-top: 0;
@@ -341,9 +337,7 @@ body {
     margin-right: 1px;
 }
 
-
 /* ==================== END OF RESUME SECTION  */
-
 
 /* ============= SERVICES DESCRIPTION SECTION  */
 
@@ -392,7 +386,6 @@ svg.svg-inline--fa {
     font-weight: bold;
 }
 
-
 /* ============== FOOTER SECTION */
 
 #contact {
@@ -419,12 +412,12 @@ svg.svg-inline--fa {
     margin: 2px
 }
 
-
 /*  ======================== PORTFOLIO SECTION  */
 
 #portfolio {
     padding: 5rem;
 }
+
 #portfolio .mybutton {
     display: grid;
     align-items: center;
@@ -439,10 +432,21 @@ svg.svg-inline--fa {
     color: #262523;
 }
 
-
 /* ==================== MEDIA QUERIES */
 
 @media(max-width: 767px) {
+    * {
+        font-size: 14px;
+    }
+    .technology {
+     
+        border-radius: 50%;
+        background-position: center;
+        height: 7rem;
+        width: 7rem;
+        margin: 1rem;
+       
+    }
     .landingtext {
         position: absolute;
         top: 6%;
@@ -512,5 +516,17 @@ svg.svg-inline--fa {
         text-align: center;
         font-weight: 600 !important;
         margin-bottom: 1rem;
+    }
+    #portfolio .mybutton {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        transition: ease-in 500ms;
+    }
+    #portfolio .mybutton:hover {
+        width: 75%;
+        background-color: white;
+        color: #262523;
     }
 }
