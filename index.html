@@ -6,7 +6,7 @@
     <meta name="google-site-verification" content="wLS_icgW2xsTa3yx3VH2vs7eKK61Kun8ayrjjf9aQ3E" />
     <meta name="description" content="Full Stack Web Developer Funminiyi Anwo">
     <meta name="keywords"
-        content="fullstack web developer, Funminiyi Anwo, Funminiyi, Anwo, web development, front-end web developer">
+        content="fullstack web developer, Funminiyi Anwo, Funminiyi, Anwo, web development, Senior Software Engineer, .NET Developer">
     <meta name="author" content="Funminiyi Anwo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -134,7 +134,7 @@
                 </div>
 
                 <!-- Text Content -->
-                <div class="max-w-3xl text-white text-center md:text-left">
+                <div class="max-w-3xl text-white text-center flex flex-col items-center">
                     <h1 class="font-righteous text-4xl md:text-6xl mb-4 uppercase tracking-wider">Senior Software
                         Engineer</h1>
                     <p class="font-nunito text-lg md:text-2xl mb-8 leading-relaxed">
@@ -271,6 +271,7 @@
     </section>
 
     <!-- Portfolio Section Prototype B: Creative Card -->
+    <!-- Portfolio Section Prototype B: Creative Card (Refactored: No Subcard) -->
     <section id="portfolio"
         class="min-h-screen flex items-center justify-center py-20 bg-gray-50 relative overflow-hidden">
         <!-- Background Shapes -->
@@ -284,59 +285,56 @@
             class="absolute bottom-1/4 left-1/2 w-72 h-72 bg-pink-300/20 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000">
         </div>
 
-        <div class="max-w-4xl mx-auto px-4 relative z-10 w-full">
-            <div
-                class="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden border border-white/50 p-8 md:p-12 text-center transform hover:scale-[1.01] transition-transform duration-500">
+        <div class="max-w-4xl mx-auto px-4 relative z-10 w-full text-center">
 
-                <span
-                    class="inline-block py-1 px-3 rounded-full bg-chocolate/10 text-chocolate text-sm font-bold tracking-widest mb-6">
-                    MY WORK
-                </span>
-
-                <h2 class="text-4xl md:text-5xl font-righteous text-dark mb-6">Turning Ideas into <span
-                        class="text-chocolate">Reality</span></h2>
-
-                <p class="text-gray-600 text-lg mb-10 max-w-2xl mx-auto">
-                    From simple landing pages to complex web applications, I craft digital experiences that are fast,
-                    responsive, and secure.
-                </p>
-
-                <!-- Process Icons -->
-                <div class="flex justify-center items-center gap-8 md:gap-16 mb-12">
-                    <div class="flex flex-col items-center">
-                        <div
-                            class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 text-2xl mb-2 shadow-sm">
-                            <i class="fas fa-lightbulb"></i>
-                        </div>
-                        <span class="font-bold text-gray-700">Idea</span>
-                    </div>
-                    <div class="text-gray-300 text-xl"><i class="fas fa-arrow-right"></i></div>
-                    <div class="flex flex-col items-center">
-                        <div
-                            class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center text-purple-600 text-2xl mb-2 shadow-sm">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <span class="font-bold text-gray-700">Code</span>
-                    </div>
-                    <div class="text-gray-300 text-xl"><i class="fas fa-arrow-right"></i></div>
-                    <div class="flex flex-col items-center">
-                        <div
-                            class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center text-green-600 text-2xl mb-2 shadow-sm">
-                            <i class="fas fa-rocket"></i>
-                        </div>
-                        <span class="font-bold text-gray-700">Launch</span>
-                    </div>
-                </div>
-
-                <!-- CTA Button (Prototype B Style) -->
-                <a href="https://github.com/Funminiyi-debug" target="_blank"
-                    class="relative inline-block px-12 py-4 text-lg font-bold text-chocolate border-2 border-chocolate rounded overflow-hidden group hover:text-white transition-colors duration-300">
-                    <span
-                        class="absolute inset-0 w-full h-full bg-chocolate transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left -z-10"></span>
-                    <span class="relative z-10">BROWSE MY REPOSITORIES</span>
-                </a>
-
+            <div class="mb-16">
+                <h3 class="text-chocolate text-2xl font-bold uppercase mb-2">MY WORK</h3>
+                <div class="h-1 w-16 bg-chocolate mx-auto"></div>
             </div>
+
+            <h2 class="text-4xl md:text-5xl font-righteous text-dark mb-6">Turning Ideas into <span
+                    class="text-chocolate">Reality</span></h2>
+
+            <p class="text-gray-600 text-lg mb-10 max-w-2xl mx-auto">
+                From simple landing pages to complex web applications, I craft digital experiences that are fast,
+                responsive, and secure.
+            </p>
+
+            <!-- Process Icons -->
+            <div class="flex justify-center items-center gap-8 md:gap-16 mb-12">
+                <div class="flex flex-col items-center">
+                    <div
+                        class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 text-2xl mb-2 shadow-sm">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <span class="font-bold text-gray-700">Idea</span>
+                </div>
+                <div class="text-gray-300 text-xl"><i class="fas fa-arrow-right"></i></div>
+                <div class="flex flex-col items-center">
+                    <div
+                        class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center text-purple-600 text-2xl mb-2 shadow-sm">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <span class="font-bold text-gray-700">Code</span>
+                </div>
+                <div class="text-gray-300 text-xl"><i class="fas fa-arrow-right"></i></div>
+                <div class="flex flex-col items-center">
+                    <div
+                        class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center text-green-600 text-2xl mb-2 shadow-sm">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <span class="font-bold text-gray-700">Launch</span>
+                </div>
+            </div>
+
+            <!-- CTA Button (Prototype B Style) -->
+            <a href="https://github.com/Funminiyi-debug" target="_blank"
+                class="relative inline-block px-12 py-4 text-lg font-bold text-chocolate border-2 border-chocolate rounded overflow-hidden group hover:text-white transition-colors duration-300">
+                <span
+                    class="absolute inset-0 w-full h-full bg-chocolate transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left -z-10"></span>
+                <span class="relative z-10">BROWSE MY REPOSITORIES</span>
+            </a>
+
         </div>
     </section>
 
